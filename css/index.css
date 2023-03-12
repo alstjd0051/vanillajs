@@ -1,0 +1,56 @@
+:root {
+  background-color: black;
+  --puple: #800080;
+  --yellow: #ffff5c;
+  --dark: #000;
+}
+
+.side {
+  height: 100vh;
+  widows: 100%;
+
+  display: grid;
+  place-items: center;
+
+  overflow: hidden;
+  position: absolute;
+}
+
+.side .title {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-size: 8vw;
+  margin: 0px 15vw;
+  width: 70vw;
+}
+
+.side .fancy {
+  font-family: "Lobster", cursive;
+  font-size: 1.3em;
+  line-height: 0.8em;
+}
+
+#left-side {
+  background-color: var(--puple);
+  z-index: 2;
+}
+
+#left-side .title {
+  color: #fff;
+}
+
+#left-side .fancy {
+  color: var(--yellow);
+}
+
+#right-side {
+  background-color: var(--yellow);
+}
+
+#right-side .title {
+  color: var(--dark);
+}
+
+#right-side .fancy {
+  color: #fff;
+}
